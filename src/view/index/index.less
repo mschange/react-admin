@@ -1,0 +1,22 @@
+.indexWrapper {
+  width: 100%;
+  height: 100vh;
+  overflow: hidden;
+  display: flex;
+  justify-content: flex-start;
+  .sliderWrapper {
+    width: 180px;
+    height: 100%;
+    background-color: #304156;
+    overflow: auto;
+  }
+  .mainWrapper {
+    width: calc(100% - 180px);
+    height: 100%;
+    .mainHeader {
+      width: 100%;
+      height: calc(100% - 61px);
+      overflow-y: auto;
+    }
+  }
+}
